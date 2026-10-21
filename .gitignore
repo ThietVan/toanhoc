@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# --- Không đưa lên kho mã nguồn công khai ---
+# Khoá ký ứng dụng và cấu hình cá nhân
+*.jks
+*.keystore
+*.p12
+keystore.properties
+# Bản build phát hành
+/app/release/
+*.aab
+*.apk
+# Thư viện và giọng đọc được Gradle tự tải khi build
+/app/libs/
+/app/.piper-cache/
+# Thư mục tạm / sao lưu khi phát triển
+/.cc_tmp/
+/_theme_backup_*/
+/.kotlin/
+/domain/
+/.idea/
